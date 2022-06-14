@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
 import Campaigns from './components/pages/Campaigns';
@@ -16,12 +16,12 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/AboutUs' exact component={AboutUs} />
-          <Route path='/Campaigns' exact component={Campaigns} />
-          <Route path='/Events' exact component={Events} />
-        </Switch>
+        <Routes>
+          <Route path='/'  element={<Home/>} />
+          <Route path='/AboutUs'  element={<AboutUs/>} />
+          <Route path='/Campaigns'  element={<Campaigns/>} />
+          <Route path='/Events'  element={<Events/>} />
+        </Routes>
         <Footer />
       </Router>
     </>
