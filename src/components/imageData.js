@@ -1,0 +1,29 @@
+export const imageData = [
+    {
+      img:"/assets/images/AiAlogo.jpg",
+    },
+    {
+      img: "/assets/images/CCANactionfund.png",
+    },
+    {
+      img:"/assets/images/DCWFP.jpg",
+    },
+    {
+      img:"/assets/images/EmpowerDC.jpg",
+    },
+    {
+      img:"/assets/images/ShutdownDC.jpg",
+    },
+    {
+      img:"/assets/images/Spaces.in.action.jpg",
+    },
+    {
+      img:"/assets/images/sunrise.jpg",
+    },
+    {
+      img:"/assets/images/uscan_logo.jpg",
+    },
+    {
+      img:"/assets/images/WLCDC.jpg",
+    },
+  ];
