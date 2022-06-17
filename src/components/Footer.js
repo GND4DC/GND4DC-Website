@@ -43,20 +43,20 @@ function Footer() {
           </div>
           <small class='website-rights'>GND for DC © 2022</small>
           <div class='social-icons'>
-            <a href='https://www.facebook.com/Arm-In-Arm-DC-108366190956042'
+            {/* <a href='https://www.facebook.com/Arm-In-Arm-DC-108366190956042'
               class='social-icon-link facebook'
-              // target='_blank'
+              target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </a>
-            <a href='https://www.instagram.com/?hl=en'
+            </a> */}
+            {/* <a href='https://www.instagram.com/?hl=en'
               class='social-icon-link instagram'
               // target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </a>
+            </a> */}
             <a href='https://twitter.com/GND4DCAction'
               class='social-icon-link twitter'
               to='/https://twitter.com/GND4DCAction'
